@@ -1,5 +1,4 @@
 <?php
-header("Access-Control-Allow-Origin: *");
 ini_set('log_errors', 1);
 ini_set('error_log', '/tmp/php-error-proxy.log');
 if (!isset($_REQUEST["url"]) || $_REQUEST["url"] == "") {

@@ -48,8 +48,11 @@
     <div id="cheats" class="center-align container">
         <img src="telegramgames.png" class="responsive-img" alt="TelegramCheats">
         <p>Inserisci l&apos;URL del gioco e il punteggio desiderato:</p>
+        <div id="cool" style="display: none;"><img src="xd/cool.png" class="responsive-img" alt="Pony"><br>Cool ponies don&apos;t cheat.</div>
+        <div id="sad" style="display: none;"><img src="xd/sad.png" class="responsive-img" alt="Pony"><br>Mi dispiace che hai scelto di camminare sul vile sentiero dei trucchi. Spero con tutto il mio cuore che tu possa presto ritrovare la giusta via.</div>
+        <div id="angry" style="display: none;"><img src="xd/angry.png" class="responsive-img" alt="Pony"><br>Sono molto, molto arrabbiata e delusa con te per aver usato questi vili trucchi.</div>
         <br>URL: <input type="text" placeholder="URL" id="url">
-        <br>Punteggio: <input type="text" placeholder="2147483647" id="score">
+        <br>Punteggio: <input type="text" placeholder="Massimo 2147483647" id="score">
         <br><button class="waves-effect waves-light btn deep-purple darken-1" onclick="cheat($('#url').val(), $('#score').val());">Done!</button><br>
         <br><br>
         <div id="res">
